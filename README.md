@@ -3,6 +3,9 @@ For the article : "Working Database 1- Introduction Microsoft SQL Server and Exp
 
 # Working Database Article Series
 
+![image](https://github.com/cmakkaya/mssql-server-handson/assets/110052470/6108280e-f26c-4835-b235-aae80065f7e8)
+
+
 In the Working Database series, firstly, we will examine Relational Database Management Systems; Microsoft SQL Server, MySQL, PostgreSQL, and MariaDB, then Amazon RDS. We will examine MongoDB as a document database and Amazon DynamoDB as a NoSQL database. We will do all the subjects practically (Hands-on) and step by step.
 
 First, we will start the article series with Microsoft SQL Server 2022. We will run Microsoft SQL Server and Apache Webserver + PHP together first in a Container and then in a Kubernetes cluster. We will run the containers first with Dockercompose, then with Amazon Container Service (ECS), and later we will run them with the Kubernetes yaml files by using Helm on the Elastic Kubernetes Service (EKS).
@@ -17,9 +20,14 @@ For Microsoft SQL Server, firstly, we will prepare Dockerfiles and then create t
 
 We will write a Launcher, which starts both containers. For this, firstly, We will write Docker compose file for Docker containers. Then, write a task defination file for Amazon Container Service (ECS), and finally, write Kubernetes yaml files for Elastic Kubernetes Service (EKS).
 
+![image](https://github.com/cmakkaya/mssql-server-handson/assets/110052470/deeb21ab-8861-41d9-ba26-6f42b35b3ec8)
 
 Running with the Docker compose file in Docker containers.
 
+![image](https://github.com/cmakkaya/mssql-server-handson/assets/110052470/f4c39eec-2148-404d-aeca-1dd01cf175ac)
+
 Running with the task defination file on the Amazon Container Service (ECS) cluster (Fargate)
+
+![image](https://github.com/cmakkaya/mssql-server-handson/assets/110052470/eb1f2753-c204-43bb-87c0-29a310146202)
 
 Running with the Kubernetes yaml files by using Helm on the Elastic Kubernetes Service (EKS).
