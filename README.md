@@ -1,7 +1,7 @@
 # MS SQL Server Hands-On
 
 
-# Working Database Article Series
+# "Working with Database" Article Series
 
 ![image](https://github.com/cmakkaya/mssql-server-handson/assets/110052470/6108280e-f26c-4835-b235-aae80065f7e8)
 
@@ -46,9 +46,9 @@ Running with the Kubernetes yaml files by using Helm on the Elastic Kubernetes S
 The Article link for more information: [It will be released soon]().
 
 
-## Working Database-MSSQL Server - CSI: Troubleshooting in Microsoft SQL Server containers
+## Working with Database-MSSQL Server - CSI: Troubleshooting in Microsoft SQL Server containers
 
 ![image](https://github.com/user-attachments/assets/c417351a-8423-4331-a886-cd83de6fed72)
 
 I will talk about the problems and solutions I encountered while installing and running the Microsoft SQL Server. I will write the resources and solutions I used to fix the errors:
-The Article link for more information: [Working Database-MSSQL Server - CSI: Troubleshooting in Microsoft SQL Server containers](https://cmakkaya.medium.com/step-5-csi-troubleshooting-in-microsoft-sql-server-containers-e5c5449443dd).
+The Article link for more information: [Working with Database-MSSQL Server - CSI: Troubleshooting in Microsoft SQL Server containers](https://cmakkaya.medium.com/step-5-csi-troubleshooting-in-microsoft-sql-server-containers-e5c5449443dd).
