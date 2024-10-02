@@ -1,4 +1,4 @@
-# MS SQL Server handson
+# MS SQL Server Hands-On
 For the article : [Working Database 1- Introduction Microsoft SQL Server and Explanation of what we will do in this series of articles](https://cmakkaya.medium.com/working-database-1-introduction-microsoft-sql-server-and-explanation-of-what-we-will-do-in-this-105bebf66a55) 
 
 # Working Database Article Series
