@@ -20,17 +20,34 @@ For Microsoft SQL Server, we will first prepare Dockerfiles and then create two 
 
 We will write a Launcher, which starts both containers. For this, firstly, We will write a Docker Compose file for Docker containers. Then, write a task definition file for Amazon Container Service (ECS), and finally, write Kubernetes yaml files for Elastic Kubernetes Service (EKS).
 
+
+## Running with the Docker Compose file
+
 ![image](https://github.com/cmakkaya/mssql-server-handson/assets/110052470/deeb21ab-8861-41d9-ba26-6f42b35b3ec8)
 
 Running with the Docker compose file in Docker containers.
 The Article link for more information: [Working with Database (2): Running MS SQL Server and Webserver(Apache)+PHP Containers Together Using Docker Compose](https://cmakkaya.medium.com/working-with-database-2-running-ms-sql-server-and-webserver-apache-php-containers-together-3dea9a263105) 
 
+
+## Running with task definition file on the Amazon Container Service (ECS)
+
 ![image](https://github.com/cmakkaya/mssql-server-handson/assets/110052470/f4c39eec-2148-404d-aeca-1dd01cf175ac)
 
-Running with the task definition file on the Amazon Container Service (ECS) cluster (Fargate)
-The Article link for more information: It will be released soon.
+Running with the task definition file on the Amazon Container Service (ECS) cluster (Fargate):
+The Article link for more information: [It will be released soon]().
+
+
+## Running with the Kubernetes yaml files on the Amazon Elastic Kubernetes Service (EKS)
 
 ![image](https://github.com/cmakkaya/mssql-server-handson/assets/110052470/eb1f2753-c204-43bb-87c0-29a310146202)
 
-Running with the Kubernetes yaml files by using Helm on the Elastic Kubernetes Service (EKS).
-The Article link for more information: It will be released soon.
+Running with the Kubernetes yaml files by using Helm on the Elastic Kubernetes Service (EKS):
+The Article link for more information: [It will be released soon]().
+
+
+## Working Database-MSSQL Server - CSI: Troubleshooting in Microsoft SQL Server containers
+
+![image](https://github.com/user-attachments/assets/c417351a-8423-4331-a886-cd83de6fed72)
+
+I will talk about the problems and solutions I encountered while installing and running the Microsoft SQL Server. I will write the resources and solutions I used to fix the errors:
+The Article link for more information: [Working Database-MSSQL Server - CSI: Troubleshooting in Microsoft SQL Server containers](https://cmakkaya.medium.com/step-5-csi-troubleshooting-in-microsoft-sql-server-containers-e5c5449443dd).
