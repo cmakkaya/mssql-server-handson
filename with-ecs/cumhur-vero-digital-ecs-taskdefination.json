@@ -1,0 +1,81 @@
+{
+    "family": "cumhur-vero-digital",
+    "containerDefinitions": [
+        {
+            "name": "db",
+            "image": "450595435628.dkr.ecr.eu-north-1.amazonaws.com/cmakkaya/verodigitaltask-staging:db-0.1.0",
+            "cpu": 0,
+            "portMappings": [
+                {
+                    "name": "db-1433-tcp",
+                    "containerPort": 1433,
+                    "hostPort": 1433,
+                    "protocol": "tcp",
+                    "appProtocol": "http"
+                }
+            ],
+            "essential": true,
+            "environment": [
+                {
+                    "name": "MSSQL_SA_PASSWORD",
+                    "value": "Un!q@to2023"
+                },
+                {
+                    "name": "MSSQL_PID",
+                    "value": "Developer"
+                },
+                {
+                    "name": "ACCEPT_EULA",
+                    "value": "Y"
+                }
+            ],
+            "environmentFiles": [],
+            "mountPoints": [],
+            "volumesFrom": [],
+            "ulimits": []
+        },
+        {
+            "name": "web",
+            "image": "450595435628.dkr.ecr.eu-north-1.amazonaws.com/cmakkaya/verodigitaltask-staging:web-0.1.0",
+            "cpu": 0,
+            "portMappings": [
+                {
+                    "name": "web-80-tcp",
+                    "containerPort": 80,
+                    "hostPort": 80,
+                    "protocol": "tcp",
+                    "appProtocol": "http"
+                }
+            ],
+            "essential": false,
+            "environment": [
+                {
+                    "name": "MSSQL_SA_PASSWORD",
+                    "value": "Un!q@to2023"
+                },
+                {
+                    "name": "ACCEPT_EULA",
+                    "value": "Y"
+                }
+            ],
+            "environmentFiles": [],
+            "mountPoints": [],
+            "volumesFrom": []
+        }
+    ],
+    "taskRoleArn": "arn:aws:iam::450595435628:role/ecsTaskExecutionRole",
+    "executionRoleArn": "arn:aws:iam::450595435628:role/ecsTaskExecutionRole",
+    "networkMode": "awsvpc",
+    "requiresCompatibilities": [
+        "FARGATE"
+    ],
+    "cpu": "1024",
+    "memory": "3072",
+    "ephemeralStorage": {
+        "sizeInGiB": 21
+    },
+    "runtimePlatform": {
+        "cpuArchitecture": "X86_64",
+        "operatingSystemFamily": "LINUX"
+    }
+}
