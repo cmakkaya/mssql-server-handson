@@ -33,7 +33,14 @@ The Article link for more information: [Working with Database 1- Introduction Mi
 
 ![image](https://github.com/cmakkaya/mssql-server-handson/assets/110052470/deeb21ab-8861-41d9-ba26-6f42b35b3ec8)
 
-Running with the Docker compose file in Docker containers.
+In this article, we will write Dockerfiles for MS SQL Server and Webserver(Apache)+PHP. Dockerfiles holds a Microsoft SQL database, and a Web-Server (Apache) a pre-defined PHP script in order to test the Database. We will write a proper driver to connect to the Microsoft SQL Server step by step by looking at the relevant Microsoft documents and Docker Hub pages.
+
+Then, We will write a Docker compose file as a Launcher, which starts both containers. Then we will create two docker containers via Docker compose file, one will run an MSSQL database, and another will run a Web-Server with a pre-defined PHP script.
+* MSSQL-Server Docker Container (Database): It will perform MSSQL Server installation, set a password for SA, and run MSSQL Service.
+* Web-Server Docker Container (API): It will install Apache Webserver, install PHP 8.1, install the proper driver to connect to MSSQL Server, and add the script QuickDbTest.php to the web-root folder).
+
+We will do these practically step by step in this article.
+
 The Article link for more information: [Working with Database (2): Running MS SQL Server and Webserver(Apache)+PHP Containers Together Using Docker Compose](https://cmakkaya.medium.com/working-with-database-2-running-ms-sql-server-and-webserver-apache-php-containers-together-3dea9a263105) 
 
 
@@ -42,7 +49,7 @@ The Article link for more information: [Working with Database (2): Running MS SQ
 
 ![image](https://github.com/user-attachments/assets/e8c859b2-4070-4554-b04a-afb1e12fc5e2)
 
-In this article, we’ll create a database and add data by using sqlcmd commands. Then, we’ll run a query to return data from the inventory table. Then, we’ll test the volumes; “data” and “src” that we connected to the DB (MSSQL Server Database) container. Finally, we’ll troubleshoot in the MS SQL Server and Containers.
+In this article, we’ll create a database and add data into MS SQL Server by using sqlcmd commands. Then, we’ll run a query to return data from the inventory table. Then, we’ll test the volumes; “data” and “src” that we connected to the DB (MSSQL Server Database) container. Finally, we’ll troubleshoot in the MS SQL Server and Containers.
 We will do these practically step by step in this article.
 The Article link for more information: [Working with Database - MS SQL Server (3): Creating a Database, Inserting Data, and Running a Query Using "sqlcmd" Commands](https://cmakkaya.medium.com/working-with-database-ms-sql-server-3-creating-a-database-inserting-data-and-running-a-aa580206cdd6).
 
