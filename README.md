@@ -8,8 +8,6 @@
 
 ![image](https://github.com/cmakkaya/mssql-server-handson/assets/110052470/6108280e-f26c-4835-b235-aae80065f7e8)
 
-For the article : [Working with Database 1- Introduction Microsoft SQL Server and Explanation of what we will do in this series of articles](https://cmakkaya.medium.com/working-database-1-introduction-microsoft-sql-server-and-explanation-of-what-we-will-do-in-this-105bebf66a55) 
-
 In the Working with Database series, firstly, we will examine Relational Database Management Systems; Microsoft SQL Server, MySQL, PostgreSQL, and MariaDB, then Amazon RDS. We will examine MongoDB as a document database and Amazon DynamoDB as a NoSQL database. We will do all the subjects practically (Hands-on) and step by step.
 
 First, we will start the article series with Microsoft SQL Server 2022. We will run Microsoft SQL Server and Apache Webserver + PHP together in Containers. We will run the containers first with Docker Compose, then with Amazon Container Service (ECS) by using the "task definition file", and later we will run them with the "Kubernetes yaml file" by using Helm on the Elastic Kubernetes Service (EKS).
@@ -23,6 +21,8 @@ Finally, we will write a Jenkins pipeline, to make them automatically deploy and
 For Microsoft SQL Server, we will first prepare Dockerfiles and then create two Docker containers from them. One holds a Microsoft SQL database, and the other holds a Web Server (Apache) with a pre-defined PHP script in order to test the Database. We will write the Dockerfiles, and install a proper driver to connect to the Microsoft SQL Server step by step by looking at the relevant Microsoft and Docker Hub pages.
 
 We will write a Launcher, which starts both containers. For this, firstly, We will write a Docker Compose file for Docker containers. Then, write a "task definition file" for Amazon Container Service (ECS), and finally, write a "Kubernetes yaml file" for Elastic Kubernetes Service (EKS).
+
+The Article link for more information: [Working with Database 1- Introduction Microsoft SQL Server and Explanation of what we will do in this series of articles](https://cmakkaya.medium.com/working-database-1-introduction-microsoft-sql-server-and-explanation-of-what-we-will-do-in-this-105bebf66a55) 
 
 ----------------------------------------------------------------------------------------------------------------------------
 ## Running MS SQL Server and Webserver(Apache)+PHP Containers Together Using Docker Compose
