@@ -1,5 +1,7 @@
 # "Working with Database" Article Series
 
+✏️ Don't forget to follow [my LinkedIn account](https://www.linkedin.com/in/cumhurakkaya/) or [my Medium account](https://cmakkaya.medium.com/) to be informed about new articles.
+⭐ Also, thank you for giving `stars` to my GitHub.
 
 ## MS SQL Server Hands-On
 
@@ -68,3 +70,17 @@ The Article link for more information: [It will be released soon]().
 
 I will talk about the problems and solutions I encountered while installing and running the Microsoft SQL Server. I will write the resources and solutions I used to fix the errors:
 The Article link for more information: [Working with Database-MSSQL Server - CSI: Troubleshooting in Microsoft SQL Server containers](https://cmakkaya.medium.com/step-5-csi-troubleshooting-in-microsoft-sql-server-containers-e5c5449443dd).
+
+-----------------------------------------------------------------------------------------------------------------------------
+## Connect with me 📫 You can learn more about me
+
+- 🌐 [LinkedIn](https://www.linkedin.com/in/cumhurakkaya/)
+- ✏️ [Medium Articles](https://cmakkaya.medium.com/)
+
+Don't forget to follow [my LinkedIn account](https://www.linkedin.com/in/cumhurakkaya/) or [my Medium account](https://cmakkaya.medium.com/) to be informed about new articles and new updates in this repository.
+
+⭐ Also, thank you for giving `stars` to my GitHub.
+
+I hope they are useful to you.
+
+🙏 I wish you growing success.
