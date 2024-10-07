@@ -21,7 +21,7 @@ For Microsoft SQL Server, we will first prepare Dockerfiles and then create two 
 
 We will write a Launcher, which starts both containers. For this, firstly, We will write a Docker Compose file for Docker containers. Then, write a "task definition file" for Amazon Container Service (ECS), and finally, write a "Kubernetes yaml file" for Elastic Kubernetes Service (EKS).
 
-
+----------------------------------------------------------------------------------------------------------------------------
 ## Running with the Docker Compose file
 
 ![image](https://github.com/cmakkaya/mssql-server-handson/assets/110052470/deeb21ab-8861-41d9-ba26-6f42b35b3ec8)
@@ -37,7 +37,7 @@ In this article, we’ll create a database and add data by using sqlcmd commands
 We will do these practically step by step in this article.
 The Article link for more information: [Working with Database - MS SQL Server (3): Creating a Database, Inserting Data, and Running a Query Using sqlcmd Commands](https://cmakkaya.medium.com/working-with-database-ms-sql-server-3-creating-a-database-inserting-data-and-running-a-aa580206cdd6).
 
-
+-----------------------------------------------------------------------------------------------------------------------------
 ## Running with task definition file on the Amazon Container Service (ECS)
 
 ![image](https://github.com/cmakkaya/mssql-server-handson/assets/110052470/f4c39eec-2148-404d-aeca-1dd01cf175ac)
@@ -45,7 +45,7 @@ The Article link for more information: [Working with Database - MS SQL Server (3
 Running with the task definition file on the Amazon Container Service (ECS) cluster (Fargate):
 The Article link for more information: [It will be released soon]().
 
-
+-----------------------------------------------------------------------------------------------------------------------------
 ## Running with the Kubernetes yaml files on the Amazon Elastic Kubernetes Service (EKS)
 
 ![image](https://github.com/cmakkaya/mssql-server-handson/assets/110052470/eb1f2753-c204-43bb-87c0-29a310146202)
@@ -53,7 +53,7 @@ The Article link for more information: [It will be released soon]().
 Running with the Kubernetes yaml files by using Helm on the Elastic Kubernetes Service (EKS):
 The Article link for more information: [It will be released soon]().
 
-
+-----------------------------------------------------------------------------------------------------------------------------
 ## Working with Database-MSSQL Server - CSI: Troubleshooting in Microsoft SQL Server containers
 
 ![image](https://github.com/user-attachments/assets/c417351a-8423-4331-a886-cd83de6fed72)
