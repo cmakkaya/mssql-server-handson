@@ -19,7 +19,7 @@ Finally, we will write a Jenkins pipeline, to make them automatically deploy and
 
 For Microsoft SQL Server, we will first prepare Dockerfiles and then create two Docker containers from them. One holds a Microsoft SQL database, and the other holds a Web Server (Apache) with a pre-defined PHP script in order to test the Database. We will write the Dockerfiles, and install a proper driver to connect to the Microsoft SQL Server step by step by looking at the relevant Microsoft and Docker Hub pages.
 
-We will write a Launcher, which starts both containers. For this, firstly, We will write a Docker Compose file for Docker containers. Then, write a "task definition file" for Amazon Container Service (ECS), and finally, write "Kubernetes yaml file" for Elastic Kubernetes Service (EKS).
+We will write a Launcher, which starts both containers. For this, firstly, We will write a Docker Compose file for Docker containers. Then, write a "task definition file" for Amazon Container Service (ECS), and finally, write a "Kubernetes yaml file" for Elastic Kubernetes Service (EKS).
 
 
 ## Running with the Docker Compose file
