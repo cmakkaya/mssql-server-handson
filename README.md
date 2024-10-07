@@ -1,7 +1,7 @@
-# MS SQL Server Hands-On
+# "Working with Database" Article Series
 
 
-## "Working with Database" Article Series
+## MS SQL Server Hands-On
 
 ----------------------------------------------------------------------------------------------------------------------------
 ## Introduction Microsoft SQL Server and Explanation of what we will do in this series of articles
