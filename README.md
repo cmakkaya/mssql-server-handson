@@ -29,6 +29,8 @@ We will write a Launcher, which starts both containers. For this, firstly, We wi
 Running with the Docker compose file in Docker containers.
 The Article link for more information: [Working with Database (2): Running MS SQL Server and Webserver(Apache)+PHP Containers Together Using Docker Compose](https://cmakkaya.medium.com/working-with-database-2-running-ms-sql-server-and-webserver-apache-php-containers-together-3dea9a263105) 
 
+
+-----------------------------------------------------------------------------------------------------------------------------
 ## Creating a Database, Inserting Data, and Running a Query Using sqlcmd Commands
 
 ![image](https://github.com/user-attachments/assets/e8c859b2-4070-4554-b04a-afb1e12fc5e2)
@@ -36,6 +38,7 @@ The Article link for more information: [Working with Database (2): Running MS SQ
 In this article, we’ll create a database and add data by using sqlcmd commands. Then, we’ll run a query to return data from the inventory table. Then, we’ll test the volumes; “data” and “src” that we connected to the DB (MSSQL Server Database) container. Finally, we’ll troubleshoot in the MS SQL Server and Containers.
 We will do these practically step by step in this article.
 The Article link for more information: [Working with Database - MS SQL Server (3): Creating a Database, Inserting Data, and Running a Query Using sqlcmd Commands](https://cmakkaya.medium.com/working-with-database-ms-sql-server-3-creating-a-database-inserting-data-and-running-a-aa580206cdd6).
+
 
 -----------------------------------------------------------------------------------------------------------------------------
 ## Running with task definition file on the Amazon Container Service (ECS)
@@ -45,6 +48,7 @@ The Article link for more information: [Working with Database - MS SQL Server (3
 Running with the task definition file on the Amazon Container Service (ECS) cluster (Fargate):
 The Article link for more information: [It will be released soon]().
 
+
 -----------------------------------------------------------------------------------------------------------------------------
 ## Running with the Kubernetes yaml files on the Amazon Elastic Kubernetes Service (EKS)
 
@@ -52,6 +56,7 @@ The Article link for more information: [It will be released soon]().
 
 Running with the Kubernetes yaml files by using Helm on the Elastic Kubernetes Service (EKS):
 The Article link for more information: [It will be released soon]().
+
 
 -----------------------------------------------------------------------------------------------------------------------------
 ## Working with Database-MSSQL Server - CSI: Troubleshooting in Microsoft SQL Server containers
