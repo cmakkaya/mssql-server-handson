@@ -3,6 +3,9 @@
 
 ## "Working with Database" Article Series
 
+----------------------------------------------------------------------------------------------------------------------------
+## Introduction Microsoft SQL Server and Explanation of what we will do in this series of articles
+
 ![image](https://github.com/cmakkaya/mssql-server-handson/assets/110052470/6108280e-f26c-4835-b235-aae80065f7e8)
 
 For the article : [Working with Database 1- Introduction Microsoft SQL Server and Explanation of what we will do in this series of articles](https://cmakkaya.medium.com/working-database-1-introduction-microsoft-sql-server-and-explanation-of-what-we-will-do-in-this-105bebf66a55) 
