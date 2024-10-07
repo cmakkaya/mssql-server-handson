@@ -1,7 +1,9 @@
 # "Working with Database" Article Series
 
 ✏️ Don't forget to follow [my LinkedIn account](https://www.linkedin.com/in/cumhurakkaya/) or [my Medium account](https://cmakkaya.medium.com/) to be informed about new articles.
+
 ⭐ Also, thank you for giving `stars` to my GitHub.
+
 
 ## MS SQL Server Hands-On
 
