@@ -22,7 +22,7 @@ For Microsoft SQL Server, we will first prepare Dockerfiles and then create two 
 We will write a Launcher, which starts both containers. For this, firstly, We will write a Docker Compose file for Docker containers. Then, write a "task definition file" for Amazon Container Service (ECS), and finally, write a "Kubernetes yaml file" for Elastic Kubernetes Service (EKS).
 
 ----------------------------------------------------------------------------------------------------------------------------
-## Running with the Docker Compose file
+## Running MS SQL Server and Webserver(Apache)+PHP Containers Together Using Docker Compose
 
 ![image](https://github.com/cmakkaya/mssql-server-handson/assets/110052470/deeb21ab-8861-41d9-ba26-6f42b35b3ec8)
 
@@ -31,17 +31,17 @@ The Article link for more information: [Working with Database (2): Running MS SQ
 
 
 -----------------------------------------------------------------------------------------------------------------------------
-## Creating a Database, Inserting Data, and Running a Query Using sqlcmd Commands
+## Creating a Database, Inserting Data, and Running a Query Using "sqlcmd" Commands
 
 ![image](https://github.com/user-attachments/assets/e8c859b2-4070-4554-b04a-afb1e12fc5e2)
 
 In this article, we’ll create a database and add data by using sqlcmd commands. Then, we’ll run a query to return data from the inventory table. Then, we’ll test the volumes; “data” and “src” that we connected to the DB (MSSQL Server Database) container. Finally, we’ll troubleshoot in the MS SQL Server and Containers.
 We will do these practically step by step in this article.
-The Article link for more information: [Working with Database - MS SQL Server (3): Creating a Database, Inserting Data, and Running a Query Using sqlcmd Commands](https://cmakkaya.medium.com/working-with-database-ms-sql-server-3-creating-a-database-inserting-data-and-running-a-aa580206cdd6).
+The Article link for more information: [Working with Database - MS SQL Server (3): Creating a Database, Inserting Data, and Running a Query Using "sqlcmd" Commands](https://cmakkaya.medium.com/working-with-database-ms-sql-server-3-creating-a-database-inserting-data-and-running-a-aa580206cdd6).
 
 
 -----------------------------------------------------------------------------------------------------------------------------
-## Running with task definition file on the Amazon Container Service (ECS)
+## Running MS SQL Server and Webserver(Apache)+PHP App On The Amazon Elastic Container Service (ECS) Cluster
 
 ![image](https://github.com/cmakkaya/mssql-server-handson/assets/110052470/f4c39eec-2148-404d-aeca-1dd01cf175ac)
 
@@ -50,7 +50,7 @@ The Article link for more information: [It will be released soon]().
 
 
 -----------------------------------------------------------------------------------------------------------------------------
-## Running with the Kubernetes yaml files on the Amazon Elastic Kubernetes Service (EKS)
+## Running MS SQL Server and Webserver(Apache)+PHP App with the Kubernetes yaml files on the Amazon Elastic Kubernetes Service (EKS) Cluster
 
 ![image](https://github.com/cmakkaya/mssql-server-handson/assets/110052470/eb1f2753-c204-43bb-87c0-29a310146202)
 
