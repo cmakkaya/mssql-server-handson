@@ -60,10 +60,10 @@ The Article link for more information: [Working with Database - MS SQL Server (3
 We will run Microsoft SQL Server and Apache Webserver + PHP together in the containers by using Amazon ECS. Firstly, we'll create an Amazon Elastic Container Registry (ECR) to store, share, docker images, and deploy them into the Amazon ECS cluster. Then, we'll write a Launcher, which runs both containers in Amazon ECS. To do this, we'll create a role: 'ecsTaskExecutionRole' for Amazon ECS, then create an ECS cluster, then write a 'task definition file' for ECS, and finally, create the services with Amazon ECS Fargate. 
 We will do all of these practically step by step in this article by using both the AWS CLI and the Amazon Management Console.
 
-![image](https://github.com/cmakkaya/mssql-server-handson/assets/110052470/f4c39eec-2148-404d-aeca-1dd01cf175ac)
+![image](https://github.com/user-attachments/assets/9dae5d27-47c4-4602-81dd-afe9382c69b4)
 
 Running with the task definition file on the Amazon Container Service (ECS) cluster (Fargate):
-The Article link for more information: [It will be released soon]().
+The Article link for more information: [Working with Database - 4: Running MS SQL Server and Webserver(Apache)+PHP App On The Amazon Elastic Container Service (ECS)](https://cmakkaya.medium.com/working-with-database-4-running-ms-sql-server-and-webserver-apache-php-app-on-the-amazon-2c2c3b1bae1b).
 
 
 -----------------------------------------------------------------------------------------------------------------------------
